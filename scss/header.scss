@@ -1,0 +1,97 @@
+/* Header */
+
+header {
+    min-height: 500px;
+    width: 100%;
+    margin: auto;
+    background: url(../images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #4b4e5bab;
+    opacity: 0.8;
+}
+
+header .container {
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 2.9em;
+    width:  800px;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    background: #1E90FF;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.bottom p {
+    background: white;
+    color: grey;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom  {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.container {
+    padding: 30px;
+}
+
+@media (max-width: 768px){
+
+    .container {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container  h1 {
+        width: fit-content;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .container .bottom {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    .container p {
+        width: 60%;
+        text-align: left;
+    }
+}

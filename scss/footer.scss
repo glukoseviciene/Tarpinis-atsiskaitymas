@@ -1,0 +1,87 @@
+/* Footer */
+
+footer {
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    text-align: left;
+    padding: 50px;
+    width: 70%;
+}
+
+.items a {
+    color: #1E90FF;
+    padding: 10px;
+}
+
+nav h5 {
+    color: rgba(128, 128, 128, 0.724);
+    margin-top: 10px;
+    padding: 7px;
+
+}
+
+footer .social {
+    display: flex;
+    gap: 15px;
+}
+
+.icon7 {
+    background: url(../images/fb.svg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+.icon8 {
+    background: url(../images/tw.svg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+.icon9 {
+    background: url(../images/insta.svg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social {
+    width: 30%;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+  footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+    .items {
+        text-align: center;
+        width: 100%;
+        font-size: 1.2em;
+    }  
+
+    .social {
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    nav {
+        width: auto;
+    }
+ }

@@ -1,0 +1,96 @@
+/* Section */
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+    gap: 70px;
+    background: rgba(128, 128, 128, 0.089);
+}
+
+.box7 {
+    margin-top: 50px;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.people {
+    width: 300px;
+    text-align: center;
+}
+
+.people1 {
+    background: url(../images/img5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0 7px rgba(128, 128, 128, 0.251);
+}
+.people2 {
+    background: url(../images/img6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0 7px rgba(128, 128, 128, 0.251);
+}
+.people3 {
+    background: url(../images/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0 7px rgba(128, 128, 128, 0.251);
+}
+
+section p {
+    color: rgba(128, 128, 128, 0.617);
+    line-height: 25px;
+}
+
+.comment-1 {
+    margin-top: 100px;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.089);
+    height: 150px;
+}
+
+@media (max-width: 768px){
+    .comment-1 {
+        max-height: 40%;
+        width: 55%;
+        text-align: center;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1200px;
+        align-items: center;
+        width: 100%;
+       }
+
+       .box7 {
+        width: 100%;
+        height: 330px;
+        margin-top: -60px;
+       }
+
+       .box7 {
+        width: 300px;
+       }
+    }
